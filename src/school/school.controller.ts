@@ -9,7 +9,7 @@ import {
 } from "@nestjs/common";
 import { SchoolService } from "./school.service";
 import { School } from "@prisma/client";
-import { SchoolDto, USchoolDto } from "../school.dto";
+import { SchoolDto, USchoolDto } from "../dto/school.dto";
 
 @Controller("school")
 export class SchoolController {
